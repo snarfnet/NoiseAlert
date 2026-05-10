@@ -1,0 +1,8 @@
+*.xcodeproj
+*.xcworkspace
+build/
+.DS_Store
+gen_xcodeproj.py
+gen_icons.py
+tools/
+DesignProposals/

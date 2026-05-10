@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"python -c \\\"\\nimport jwt, time, requests\\nKEY_ID = 'WDXGY9WX55'\\nISSUER = '2be0734f-943a-4d61-9dc9-5d9045c46fec'\\np8 = open('Downloads/AuthKey_WDXGY9WX55.p8').read()\\ntoken = jwt.encode({'...",
+  "error": "Exit code 1\nTraceback (most recent call last):\r\n  File \"<string>\", line 5, in <module>\r\nFileNotFoundError: [Errno 2] No such file or directory: 'Downloads/AuthKey_WDXGY9WX55.p8'",
+  "timestamp": "2026-05-10T12:06:13.218Z",
+  "retry_count": 2
+}
