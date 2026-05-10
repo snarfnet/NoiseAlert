@@ -15,6 +15,10 @@ targets:
   NoiseAlert:
     type: application
     platform: iOS
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.tokyonasu.noisealert
+        TARGETED_DEVICE_FAMILY: "1"
     sources:
       - path: NoiseAlert
     info:
@@ -33,6 +37,3 @@ targets:
         NSMicrophoneUsageDescription: 周囲の騒音レベルを測定するためにマイクを使用します。
         UIApplicationSceneManifest:
           UIApplicationSupportsMultipleScenes: false
-    settings:
-      base:
-        TARGETED_DEVICE_FAMILY: "1"
