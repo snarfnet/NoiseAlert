@@ -35,6 +35,13 @@ targets:
         UILaunchStoryboardName: LaunchScreen
         UISupportedInterfaceOrientations:
           - UIInterfaceOrientationPortrait
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UILaunchScreen:
+          UIColorName: ""
         NSMicrophoneUsageDescription: 周囲の騒音レベルを測定するためにマイクを使用します。
         UIApplicationSceneManifest:
           UIApplicationSupportsMultipleScenes: false
