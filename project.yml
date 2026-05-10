@@ -6,8 +6,8 @@ options:
 settings:
   base:
     SWIFT_VERSION: "5.9"
-    TARGETED_DEVICE_FAMILY: "1"
-    MARKETING_VERSION: "1.1"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    MARKETING_VERSION: "1.2"
     CURRENT_PROJECT_VERSION: "1"
     DEVELOPMENT_TEAM: 83VGKGSQUH
     CODE_SIGN_STYLE: Automatic
@@ -18,7 +18,7 @@ targets:
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.tokyonasu.noisealert
-        TARGETED_DEVICE_FAMILY: "1"
+        TARGETED_DEVICE_FAMILY: "1,2"
     sources:
       - path: NoiseAlert
     info:
@@ -26,11 +26,12 @@ targets:
       properties:
         CFBundleDisplayName: NoiseAlert
         CFBundleIconName: AppIcon
-        CFBundleShortVersionString: "1.1"
+        CFBundleShortVersionString: "1.2"
         CFBundleVersion: "1"
         LSRequiresIPhoneOS: true
         UIDeviceFamily:
           - 1
+          - 2
         UILaunchStoryboardName: LaunchScreen
         UISupportedInterfaceOrientations:
           - UIInterfaceOrientationPortrait
